@@ -77,11 +77,12 @@ class App extends Component {
             <img src={avatarUrl} alt="click to visit github" />{" "}
           </a>
         ) : (
-          <p />
-        )}
+            <p />
+          )}
 
         {errorMessage ? <p>{errorMessage}</p> : <p />}
       </div>
+
     );
   }
 }
